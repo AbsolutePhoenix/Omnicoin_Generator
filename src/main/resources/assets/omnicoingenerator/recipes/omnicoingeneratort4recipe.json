@@ -1,0 +1,42 @@
+{
+  "group": "omnicoingenerator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "omnicoingenerator:omnicoingeneratort3"
+    },
+    "1": {
+      "item": "omnicoingenerator:omnicoingeneratort3"
+    },
+    "2": {
+      "item": "omnicoingenerator:omnicoingeneratort3"
+    },
+    "3": {
+      "item": "omnicoingenerator:omnicoingeneratort3"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "omnicoingenerator:omnicoingeneratort3"
+    },
+    "6": {
+      "item": "omnicoingenerator:omnicoingeneratort3"
+    },
+    "7": {
+      "item": "omnicoingenerator:omnicoingeneratort3"
+    },
+    "8": {
+      "item": "omnicoingenerator:omnicoingeneratort3"
+    }
+  },
+  "result": {
+    "item": "omnicoingenerator:omnicoingeneratort4",
+    "count": 1
+  }
+}

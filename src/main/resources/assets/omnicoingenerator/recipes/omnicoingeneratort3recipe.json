@@ -1,0 +1,42 @@
+{
+  "group": "omnicoingenerator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "omnicoingenerator:omnicoingeneratort2"
+    },
+    "1": {
+      "item": "omnicoingenerator:omnicoingeneratort2"
+    },
+    "2": {
+      "item": "omnicoingenerator:omnicoingeneratort2"
+    },
+    "3": {
+      "item": "omnicoingenerator:omnicoingeneratort2"
+    },
+    "4": {
+      "item": "minecraft:diamond_block"
+    },
+    "5": {
+      "item": "omnicoingenerator:omnicoingeneratort2"
+    },
+    "6": {
+      "item": "omnicoingenerator:omnicoingeneratort2"
+    },
+    "7": {
+      "item": "omnicoingenerator:omnicoingeneratort2"
+    },
+    "8": {
+      "item": "omnicoingenerator:omnicoingeneratort2"
+    }
+  },
+  "result": {
+    "item": "omnicoingenerator:omnicoingeneratort3",
+    "count": 1
+  }
+}

@@ -1,3 +1,7 @@
 item.omnicoinfragment.name=Omnicoin Fragment
-tile.omnicoingenerator.name=Omnicoin Generator
-itemGroup.tabomnicoingeneratortab=Omnicoin Generator Tab
+tile.omnicoingeneratort2.name=Omnicoin Generator T2
+tile.omnicoingeneratort3.name=Omnicoin Generator T3
+itemGroup.tabomnicoingeneratortab=Omnicoin Generator
+tile.omnicoingeneratort4.name=Omnicoin Generator T4
+tile.omnicoingeneratort1.name=Omnicoin Generator T1
+tile.omnicoingeneratort5.name=Omnicoin Generator T5

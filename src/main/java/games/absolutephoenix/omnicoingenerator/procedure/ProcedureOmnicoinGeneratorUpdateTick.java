@@ -12,7 +12,7 @@ import games.absolutephoenix.omnicoingenerator.ElementsOmnicoinGenerator;
 @ElementsOmnicoinGenerator.ModElement.Tag
 public class ProcedureOmnicoinGeneratorUpdateTick extends ElementsOmnicoinGenerator.ModElement {
 	public ProcedureOmnicoinGeneratorUpdateTick(ElementsOmnicoinGenerator instance) {
-		super(instance, 4);
+		super(instance, 8);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

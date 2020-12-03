@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "omnicoingenerator:blocks/omnicoinenerator5",
+    "up": "omnicoingenerator:blocks/omnicoinenerator5",
+    "north": "omnicoingenerator:blocks/omnicoinenerator5",
+    "east": "omnicoingenerator:blocks/omnicoinenerator5",
+    "south": "omnicoingenerator:blocks/omnicoinenerator5",
+    "west": "omnicoingenerator:blocks/omnicoinenerator5",
+    "particle": "omnicoingenerator:blocks/omnicoinenerator5"
+  }
+}

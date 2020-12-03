@@ -1,0 +1,42 @@
+{
+  "group": "omnicoingenerator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "omnicoingenerator:omnicoingeneratort4"
+    },
+    "1": {
+      "item": "omnicoingenerator:omnicoingeneratort4"
+    },
+    "2": {
+      "item": "omnicoingenerator:omnicoingeneratort4"
+    },
+    "3": {
+      "item": "omnicoingenerator:omnicoingeneratort4"
+    },
+    "4": {
+      "item": "minecraft:dragon_egg"
+    },
+    "5": {
+      "item": "omnicoingenerator:omnicoingeneratort4"
+    },
+    "6": {
+      "item": "omnicoingenerator:omnicoingeneratort4"
+    },
+    "7": {
+      "item": "omnicoingenerator:omnicoingeneratort4"
+    },
+    "8": {
+      "item": "omnicoingenerator:omnicoingeneratort4"
+    }
+  },
+  "result": {
+    "item": "omnicoingenerator:omnicoingeneratort5",
+    "count": 1
+  }
+}

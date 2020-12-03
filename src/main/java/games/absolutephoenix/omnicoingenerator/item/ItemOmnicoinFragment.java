@@ -20,7 +20,7 @@ public class ItemOmnicoinFragment extends ElementsOmnicoinGenerator.ModElement {
 	@GameRegistry.ObjectHolder("omnicoingenerator:omnicoinfragment")
 	public static final Item block = null;
 	public ItemOmnicoinFragment(ElementsOmnicoinGenerator instance) {
-		super(instance, 2);
+		super(instance, 1);
 	}
 
 	@Override

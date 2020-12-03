@@ -6,7 +6,7 @@
     {
       "name": "OmnicoinGeneratorInventory",
       "type": "gui",
-      "sortid": 3,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -16,7 +16,7 @@
     {
       "name": "OmnicoinFragment",
       "type": "item",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -24,7 +24,7 @@
     {
       "name": "OmnicoinGeneratorUpdateTick",
       "type": "procedure",
-      "sortid": 4,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -50,17 +50,81 @@
       }
     },
     {
-      "name": "OmnicoinGenerator",
-      "type": "block",
-      "sortid": 1,
+      "name": "OmnicoinGeneratorTab",
+      "type": "tab",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "OmnicoinGeneratorTab",
-      "type": "tab",
+      "name": "OmnicoinGeneratorT1",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OmnicoinGeneratorT2",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OmnicoinGeneratorT3",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OmnicoinGeneratorT4",
+      "type": "block",
       "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OmnicoinGeneratorT2Recipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OmnicoinGeneratorT3Recipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OmnicoinGeneratorT4Recipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OmnicoinGeneratorT5",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OmnicoinGeneratorT5Recipe",
+      "type": "recipe",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -71,8 +135,12 @@
   "language_map": {
     "en_us": {
       "item.omnicoinfragment.name": "Omnicoin Fragment",
-      "tile.omnicoingenerator.name": "Omnicoin Generator",
-      "itemGroup.tabomnicoingeneratortab": "Omnicoin Generator Tab"
+      "tile.omnicoingeneratort2.name": "Omnicoin Generator T2",
+      "tile.omnicoingeneratort3.name": "Omnicoin Generator T3",
+      "itemGroup.tabomnicoingeneratortab": "Omnicoin Generator",
+      "tile.omnicoingeneratort4.name": "Omnicoin Generator T4",
+      "tile.omnicoingeneratort1.name": "Omnicoin Generator T1",
+      "tile.omnicoingeneratort5.name": "Omnicoin Generator T5"
     }
   },
   "workspaceSettings": {
@@ -81,7 +149,7 @@
     "version": "1.0.0",
     "description": "This mod was created for use with Omnifactory,",
     "author": "Absolute_Phoenix",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "http://absolutephoenix.games/",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -89,7 +157,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": ".",
     "modElementsPackage": "games.absolutephoenix.omnicoingenerator",
     "lockBaseModFiles": false
   },

@@ -38,7 +38,7 @@ public class GuiOmnicoinGeneratorInventory extends ElementsOmnicoinGenerator.Mod
 	public static int GUIID = 1;
 	public static HashMap guistate = new HashMap();
 	public GuiOmnicoinGeneratorInventory(ElementsOmnicoinGenerator instance) {
-		super(instance, 3);
+		super(instance, 7);
 	}
 
 	@Override

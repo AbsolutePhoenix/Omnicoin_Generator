@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OmnicoinGeneratorT2"
+      },
+      {
+        "value": "CUSTOM:OmnicoinGeneratorT2"
+      },
+      {
+        "value": "CUSTOM:OmnicoinGeneratorT2"
+      },
+      {
+        "value": "CUSTOM:OmnicoinGeneratorT2"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "CUSTOM:OmnicoinGeneratorT2"
+      },
+      {
+        "value": "CUSTOM:OmnicoinGeneratorT2"
+      },
+      {
+        "value": "CUSTOM:OmnicoinGeneratorT2"
+      },
+      {
+        "value": "CUSTOM:OmnicoinGeneratorT2"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OmnicoinGeneratorT3"
+    },
+    "name": "omnicoingeneratort3recipe",
+    "namespace": "mod"
+  }
+}

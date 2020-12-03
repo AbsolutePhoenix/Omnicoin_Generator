@@ -27,6 +27,7 @@ import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
@@ -36,6 +37,7 @@ import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.Block;
 
 import java.util.Random;
+import java.util.List;
 
 import games.absolutephoenix.omnicoingenerator.procedure.ProcedureOmnicoinGeneratorUpdateTick;
 import games.absolutephoenix.omnicoingenerator.gui.GuiOmnicoinGeneratorInventory;
@@ -44,34 +46,34 @@ import games.absolutephoenix.omnicoingenerator.OmnicoinGenerator;
 import games.absolutephoenix.omnicoingenerator.ElementsOmnicoinGenerator;
 
 @ElementsOmnicoinGenerator.ModElement.Tag
-public class BlockOmnicoinGenerator extends ElementsOmnicoinGenerator.ModElement {
-	@GameRegistry.ObjectHolder("omnicoingenerator:omnicoingenerator")
+public class BlockOmnicoinGeneratorT4 extends ElementsOmnicoinGenerator.ModElement {
+	@GameRegistry.ObjectHolder("omnicoingenerator:omnicoingeneratort4")
 	public static final Block block = null;
-	public BlockOmnicoinGenerator(ElementsOmnicoinGenerator instance) {
-		super(instance, 1);
+	public BlockOmnicoinGeneratorT4(ElementsOmnicoinGenerator instance) {
+		super(instance, 5);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("omnicoingenerator"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("omnicoingeneratort4"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		GameRegistry.registerTileEntity(TileEntityCustom.class, "omnicoingenerator:tileentityomnicoingenerator");
+		GameRegistry.registerTileEntity(TileEntityCustom.class, "omnicoingenerator:tileentityomnicoingeneratort4");
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("omnicoingenerator:omnicoingenerator", "inventory"));
+				new ModelResourceLocation("omnicoingenerator:omnicoingeneratort4", "inventory"));
 	}
 	public static class BlockCustom extends Block implements ITileEntityProvider {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("omnicoingenerator");
+			setUnlocalizedName("omnicoingeneratort4");
 			setSoundType(SoundType.STONE);
 			setHardness(1F);
 			setResistance(10F);
@@ -81,8 +83,14 @@ public class BlockOmnicoinGenerator extends ElementsOmnicoinGenerator.ModElement
 		}
 
 		@Override
+		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add("\u00A7aGenerated 1 Omnicoin Fragment evert 15 seconds");
+		}
+
+		@Override
 		public int tickRate(World world) {
-			return 600;
+			return 300;
 		}
 
 		@Override
@@ -195,7 +203,7 @@ public class BlockOmnicoinGenerator extends ElementsOmnicoinGenerator.ModElement
 
 		@Override
 		public String getName() {
-			return "container.omnicoingenerator";
+			return "container.omnicoingeneratort4";
 		}
 
 		@Override
@@ -241,7 +249,7 @@ public class BlockOmnicoinGenerator extends ElementsOmnicoinGenerator.ModElement
 
 		@Override
 		public String getGuiID() {
-			return "omnicoingenerator:omnicoingenerator";
+			return "omnicoingenerator:omnicoingeneratort4";
 		}
 
 		@Override
