@@ -1,0 +1,34 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Omnicoin Generator",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Omnicoin Generator",
+          "x": 257,
+          "y": 80
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "name": "Slot #0",
+          "x": 410,
+          "y": 137
+        }
+      }
+    ]
+  }
+}
